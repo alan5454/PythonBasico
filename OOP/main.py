@@ -16,7 +16,7 @@ def batalla(e1: Enemigo, e2: Enemigo):
         e2.ataque_especial()
         print(f"{e1.get_tipo_enemigo()}: quedan: {e1.puntos_energia} puntos de energia")
         print(f"{e2.get_tipo_enemigo()}: quedan: {e2.puntos_energia} puntos de energia")
-        print(f"Atauqe: {e2.ataque}")
+        print(f"Ataque: {e2.ataque}")
         e1.puntos_energia -= e2.ataque
         print("===============")
         print(f"Ataque: {e2.ataque}")
